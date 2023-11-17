@@ -77,7 +77,7 @@
 
 .header__theme-menu {
   display: flex;
-  color: var(--button-color, #ff0070);
+  color: var(--but-colors, #ff0070);
   justify-content: center;
   align-items: flex-start;
   height: 100%
@@ -90,7 +90,7 @@
 }
 
 .header__theme-menu-item {
-  color: var(--button-color, #ff0070);
+  color: var(--but-colors, #ff0070);
   font-size: 18px;
   font-weight: 400;
   line-height: 1.125rem;
@@ -99,7 +99,7 @@
 .header__theme-menu-button {
   border: none;
   background-color: transparent;
-  color: var(--button-color, #ff0070);
+  color: var(--but-colors, #ff0070);
   display: inline-flex;
   height: 1.625rem;
   justify-content: center;
@@ -113,7 +113,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--button-color, #ff0070);
+  border-block-end: 1px solid var(--but-colors, #ff0070);
 }
 
 .header__theme-menu-button:hover {
@@ -122,7 +122,7 @@
 }
 
 .header__theme-menu-button_active {
-  outline: 0.1rem solid var(--button-color, #ff0070);
+  outline: 0.1rem solid var(--but-colors, #ff0070);
   pointer-events: none;
 }
 
