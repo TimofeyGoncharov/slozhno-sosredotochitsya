@@ -41,7 +41,6 @@
     --corners-color: #ff0070;
     --accent-color-title: #ff0070;
     --background-image: url("../images/cover-image-dark.png");
-    --main-font: "IBM Plex Mono", monospace;
   }
 
   .element-rec {
