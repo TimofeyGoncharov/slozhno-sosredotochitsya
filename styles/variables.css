@@ -16,4 +16,5 @@
   --accent-color-title: #ff0070;
   --main-font: "IBM Plex Mono", monospace;
   --background-image: url("../images/cover-image-dark.png");
+  --gap: 20px;
 }
